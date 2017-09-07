@@ -1,0 +1,13 @@
+public class One {
+		public int money = 1000000;
+        //the word public is the access modifier, which defines whether or not others looking at the code can see this specific line. If undefined, the line will automatically be defined as private.
+        //int represents the type of variable. Other examples include float (used for int that are not whole numbers -- 1.5, 2.2, etc.) and string (used for a line of text). Int specifically must be whole numbers.
+       
+		public float fuel = 0.01f;
+         //the third word is the name of the variable. In this example, the float is labled fuel. This name can be used to call back the variable later in the code.
+
+		private string name = "Bob";
+		//the word/number after the = is the actual worth/text of the variable. In this example, the string shows that the line "Bob" is represented. In other situations, it'll be a number placing value on 
+        //something like health or ammo. If a float is used, the number must be followed by an 'f' (1.2f). Otherwise, an error will appear.
+		}
+
