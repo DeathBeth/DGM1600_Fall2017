@@ -1,0 +1,20 @@
+// Conventions are the set-up that is used in coding to make it possible to read for a human. The computer does not care what order it’s in so long as the proper symbols and keys are used.
+// Without conventions, we wouldn’t be able to properly and quickly fix an error should one appear.
+// We use white space, entering and indenting, to imply where a line of code lines up
+
+
+void Start(){ // we use the spacing here to indicate that we are starting the Main variable when the program starts. 'Main()' could be next to the first bracket if we wanted it to, but this makes much more sense
+	Main();
+
+    //Syntax is the grammar used for coding. It's like, "Stacy and I--" being correct rather than, "Me and Stacy--"
+public intrainFall = 10; //this is incorrect because int and the int name are combined when there should be a space.
+
+public float glassHalfFull = 10.5; //this is incorrect because a float must be followed by an 'f'. It should be '10.5f;'
+
+{
+	if(stopLight == "Red") {
+		print("STOP! The light is Red!"); //we use brackets to indicate a block of code, and where it begins and ends. They can be right next to the code if desired, but having them a line 
+        above and under, and typically indented makes reading the code easier. 
+	}
+
+public int redLight = "Yo yo" //an int cannot have letters. This is set up like a string, but marked as an int.
