@@ -1,0 +1,55 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Conditionals : MonoBehaviour {
+
+public string stopLight = "Red";
+
+void Start(){
+	Main();
+}
+void Main(){
+
+	if(stopLight == "Red") {
+		print("STOP! The light is Red!"); //we use only ONE 'if' statement per block and only ONE 'else' statment.
+	}
+	else if (stopLight == "Yellow"){ //we can have any many 'else if' statements that we want.
+		print("Slow down!");
+	}
+	else if (stopLight == "Green"){ //the code will go through the list in order. If the 'if' statement is not true, it will go down the line until one of them is, then will use that set of code in the game.
+		print("Green means GO!");
+	}
+	else{
+		print("I don't know what you mean!"); //the else statement is the default of the block
+	}
+
+}
+{
+public string answer = "Yes";
+
+void Start(){
+	Main();
+}
+void Main(){
+
+	if(answer == "Yes"){
+		print("Well, I should hope so.");
+	}
+	else if (answer == "No"){
+		print("No? Excuse me? Who do you think you're talking to?");
+	}
+	else if (answer == "Maybe"){
+		print("That's not a very good answer.");
+	}
+	else if (answer == "I don't want to answer"){
+		print("Well life just sucks then, doesn't it?");
+	}
+	else if (answer == "What?"){
+		print("I'm not going to repeat myself.");
+	}
+	else{
+		print("How about you try again?");
+	}
+}
+}
