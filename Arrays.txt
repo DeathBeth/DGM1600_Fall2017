@@ -1,0 +1,113 @@
+// arrays are a list that can be called on within a game
+// The list will always start with the number 0 rather than 1
+// an array is much like an egg carton, as discussed in class
+// within the single carton, there are a dozen eggs
+//the status of each egg is different, which can be specified
+
+public string[] heros = new string[6];
+
+    heros[0] = "Batman";
+    heros[1] = "Superman";
+    heros[2] = "Iron Man";
+    heros[3] = "Wonder Woman";
+    heros[4] = "Mario";
+    heros[5] = "Mr. Incredible";
+
+        print(heros[5]);
+
+
+public string[] grumps = new string[5];
+
+    grumps[0] = "Arin";
+    grumps[1] = "Dan";
+    grumps[2] = "Suzy";
+    grumps[3] = "Ross";
+    grumps[4] = "Brian";
+
+        print(grumps[3]);
+
+public int[] hotPocketsEaten = new int[4];
+
+    hotPocketsEaten[0] = 1;
+    hotPocketsEaten[1] = 2;
+    hotPocketsEaten[2] = 3;
+    hotPocketsEaten[3] = 4;
+
+        print(hotPocketsEaten[3]);
+
+public string[] eggs = new string[12];
+
+    eggs[0] = "Good";
+    eggs[1] = "Good";
+    eggs[2] = "Good";
+    eggs[3] = "Cracked";
+    eggs[4] = "Good";
+    eggs[5] = "Good";
+    eggs[6] = "Rotten";
+    eggs[7] = "Good";
+    eggs[8] = "Good";
+    eggs[9] = "Wrong color";
+    eggs[10] = "Good";
+    eggs[11] = "Good";
+
+        print(eggs[9]);
+
+public string[] week = new string[7];
+
+    week[0] = "Sunday";
+    week[1] = "Monday";
+    week[2] = "Tuesday";
+    week[3] = "Wednesday";
+    week[4] = "Thursday";
+    week[5] = "Friday";
+    week[6] = "Saturday";
+
+        print(week[6]);
+
+public string[] soda = new string[5];
+
+    soda[0] = "Dr Pepper";
+    soda[1] = "Mountain Dew";
+    soda[2] = "Sprite";
+    soda[3] = "Fanta";
+    soda[4] = "Ginger Ale";
+    soda[5] = "Coke";
+
+        print(soda[0]);
+
+public string[] zeldaGames = [4];
+
+    zeldaGames[0] = "Ocarina of Time";
+    zeldaGames[1] = "Minish Cap";
+    zeldaGames[2] = "Majoras Mask";
+    zeldaGames[3] = "Breath of the Wild";
+
+        print(zeldaGames[3]);
+
+public string[] petNames = [3];
+    
+    petNames[0] = "Rosie";
+    petNames[1] = "Ash";
+    petNames[2] = "Luna";
+
+        print(petNames[0]);
+
+public string[] petNicknames = [3];
+
+    petNicknames[0] = "Rosie Dosie";
+    petNicknames[1] = "Asher Dasher";
+    petNicknames[2] = "Luna Toon";
+
+        print(petNicknames[2]);
+
+public string[] daFam = [6];
+
+    daFam[0] = "Harmony";
+    daFam[1] = "Bethany";
+    daFam[2] = "Marin";
+    daFam[3] = "Eden";
+    daFam[4] = "Jack";
+    daFam[5] = "Brennan";
+
+        print(daFam[1]);
+
