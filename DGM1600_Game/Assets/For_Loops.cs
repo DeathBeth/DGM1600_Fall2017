@@ -18,6 +18,43 @@ public class For_Loops : MonoBehaviour {
 		for(; bottles > 0; bottles --){
 			print(bottles + " bottles of orange crush on the wall!");
 		}
+
+		for(hotPockets = 10; hotPockets < 10; hotPockets --){
+			print(hotPockets + " is too few. You need more.");
+		}
+
+		for(; music > 0; music ++){
+			print(music + " is not enough. I need just one more song before bed...");
+		}
+
+		for(youtube = 0; youtube < 100; youtube ++){
+			print(youtube + " is not sufficient. I need more internet consumption.");
+		}
+
+		for(drPepper = 100; drPepper > 0; drPepper --){
+			print(drPepper + " bottles of Dr Pepper on the waaaalllll!");
+		}
+
+		for(halloween = 31; halloween > 0; halloween --){
+			print(halloween + " days until Halloween! So spooky!");
+		}
+
+		for(; shrimp < 10; shrimp ++){
+			print(shrimp + " left until we reach shrimp heaven! Now!");
+		}
+
+		for(poptarts = 0; poptarts < 100; poptarts ++){
+			print(poptarts + " poptarts eaten! It's gotta be a new record!");
+		}
+
+		for(; iphone > 0; iphone ++){
+			print(iphone + " is enough, don'tcha think? Do we really need another one?");
+		}
+
+		for(kleenex = 150; kleenex > 0; kleenex --){
+			print(kleenex + " tissues left!");
+		}
+		
 	}
 	
 	// Update is called once per frame
