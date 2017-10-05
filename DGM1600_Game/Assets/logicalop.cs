@@ -16,13 +16,13 @@ public class logicalop : MonoBehaviour {
 	public float num2 = 10.5f;
 	public string cat1 = "Rosie";
 	public string cat2 = "Ash";
-	public string drPepper = true;
-	public string phone = true;
+	public bool drPepper = true;
+	public bool phone = true;
 	public string light = "Beth";
 	public string dark = "Bruce";
 	public string snack1 = "Pop tart";
 	public string snack2 = "Potatoes";
-	public string nap = true;
+	public bool nap = true;
 
 
 
@@ -95,7 +95,7 @@ public class logicalop : MonoBehaviour {
 		if(phone){
 			print("All is well.");
 		}
-		if else(!phone){
+		else if(!phone){
 			print("Oh no! My memes!");
 		}
 		else{
@@ -105,7 +105,7 @@ public class logicalop : MonoBehaviour {
 		if(light == "Beth" && dark == "Bruce"){
 			print("The rebellion will prevail!");
 		}
-		if else(light == "Bruce" || dark == "Beth"){
+		else if(light == "Bruce" || dark == "Beth"){
 			print("Wait. Something's wrong here. Do points transfer over evenly?");
 		}
 		else{
@@ -115,7 +115,7 @@ public class logicalop : MonoBehaviour {
 		if(snack1 == "Pop Tarts" && snack2 == "Potatoes"){
 			print("Definitely go with snack 1, are you crazy?");
 		}
-		if else(snack1 == "Potatoes" && snack2 == "Potatoes"){
+		else if(snack1 == "Potatoes" && snack2 == "Potatoes"){
 			print("Not giving me many choices, huh? I may just have to RUN!");
 		}
 		else{
@@ -125,7 +125,7 @@ public class logicalop : MonoBehaviour {
 		if(nap){
 			print("Good. I need one.");
 		}
-		if else(!nap){
+		else if(!nap){
 			print("Guys, you gottal let me nap! I'll get cranky!");
 		}
 		else{

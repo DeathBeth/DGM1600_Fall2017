@@ -211,7 +211,5 @@ public class Switches : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
-	}
-}
+
+
