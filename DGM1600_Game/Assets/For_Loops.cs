@@ -5,6 +5,15 @@ using UnityEngine;
 public class For_Loops : MonoBehaviour {
 
 	public int bottles = 100;
+	public int hotPockets;
+	public int music;
+	public int youtube;
+	public int drPepper;
+	public int halloween;
+	public int shrimp;
+	public int poptarts;
+	public int iphone;
+	public int kleenex;
 	
 	//a for loop is much like a while loop in terms of output, but the setup and principles are different.
 	// A for loops sets ups a variable, a conditional for that variable, and what causes the loop to run.
