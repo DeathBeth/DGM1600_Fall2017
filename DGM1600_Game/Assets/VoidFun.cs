@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class VoidFun : MonoBehaviour {
 	public int laserBlast;
+	public int menu;
+	public int cookAtHome;
+	public int freeTime;
+	public int listen;
+	public int food;
+	public int rolledUpOnTheFloor;
+	public int pets;
+	public int play;
+	public int iSee;
+	
 
 	// Use this for initialization
 	
@@ -92,7 +102,7 @@ public class VoidFun : MonoBehaviour {
 		}
 	}
 
-	void Music (playlist){
+	void Music (int playlist){
 
 		print(playlist);
 

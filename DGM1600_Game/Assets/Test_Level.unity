@@ -208,6 +208,7 @@ GameObject:
   - component: {fileID: 849339893}
   - component: {fileID: 849339895}
   - component: {fileID: 849339896}
+  - component: {fileID: 849339897}
   m_Layer: 0
   m_Name: Game_Manager
   m_TagString: Untagged
@@ -258,7 +259,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   laserBlast: 3
+  menu: 0
+  cookAtHome: 0
+  freeTime: 0
+  listen: 0
+  food: 0
+  rolledUpOnTheFloor: 0
+  pets: 0
+  play: 0
+  iSee: 0
 --- !u!114 &849339896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 849339892}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aa39f4519d89544382571036125f6dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &849339897
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -266,7 +287,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 849339892}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0aa39f4519d89544382571036125f6dd, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d35fff8580e5a54099ff72db99b237e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1568833439
