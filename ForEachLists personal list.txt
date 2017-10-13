@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SecondList : MonoBehaviour {
+	
+	// Use this for initialization
+	void Start () {
+		List<FirstOrder> randomCharacters = new List<FirstOrder>();
+
+		randomCharacters.Add(new FirstOrder("Finn",150));
+		randomCharacters.Add(new FirstOrder("Han Solo",0));
+		randomCharacters.Add(new FirstOrder("Chewie",600));
+		randomCharacters.Add(new FirstOrder("Light Sabre",1000000));
+
+		randomCharacters.Sort();
+
+		foreach(FirstOrder guy in randomCharacters){
+			print(guy.name + " " + guy.power);
+		}
+
+    //we use the class FirstOrder that has already been created to call back on while writing this code. This allows us to write out the
+    //list of names and powers and have it come back listing it exactly the way we wanted.
+    //we write out the foreach code to set exactly how we want the infomation to be sorted and listed
+	}
+}
